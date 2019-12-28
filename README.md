@@ -14,9 +14,13 @@ this notes are based on the model 'bayesian SegNet for brain extraction', so som
 
 #### 3. define methods depending on workflow of model
 (1) save and  restore model using ckpt
+
 (2) do data arragement/ augmentation (make a dictionary of shuffled 2D images)
+
 (3) set criteria for early stopping 
+
 (4) train the model
+
 (5) test the model
 
 More informations are in 'class_NNmodel'
